@@ -1,0 +1,497 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+:root {
+    --green: #a1c927;
+    --red: #fd634d;
+    --white: #fff;
+
+}
+
+/* Header */
+
+header {
+    position: relative;
+    height: 100vh;
+    background: url(img/header.jpg)center/cover;
+}
+
+nav {
+    padding-top: 40px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+nav ul li a {
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: "Avenir Next Rounded Std";
+}
+
+.alt-text {
+    position: absolute;
+    bottom: 180px;
+    text-align: center;
+}
+
+.alt-text h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Myriad Pro";
+}
+
+.alt-text h5 {
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    text-align: right;
+}
+
+.alt-text h1 span {
+    color: var(--green);
+}
+
+.alt-text h5 span {
+    color: var(--red);
+}
+
+/* Menu */
+.green {
+    background: var(--green);
+}
+
+.green-container {
+    padding: 0 65px;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 30px;
+}
+
+.main-text h3 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.main-text i {
+    font-size: 35px;
+}
+
+.main-text p {
+    font-size: 14px;
+    font-family: "Proxima Nova";
+}
+
+.main-text i,
+h3,
+p,
+a {
+    color: white;
+}
+
+.main-text a {
+    font-size: 14px;
+    line-height: 32px;
+    font-family: "Proxima Nova";
+}
+
+/* Row */
+
+.row {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.col-text {
+    text-align: center;
+    height: auto;
+}
+
+
+
+.row .col-text {
+    background: var(--white);
+
+}
+
+.col-text h4 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--red);
+    font-weight: 100;
+    font-family: "Montserrat";
+    padding-top: 50px;
+}
+
+.col-text h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    color: var(--green);
+    font-weight: 300;
+    font-family: "Open Sans";
+
+}
+
+.col-text img {
+    padding: 20px 0;
+}
+
+.col-text p {
+    font-size: 14px;
+    line-height: 26px;
+    color: #656e74;
+    font-weight: 400;
+    font-family: "Open Sans";
+    padding: 0 20px;
+
+}
+
+.col-text a {
+    display: block;
+    color: var(--green);
+    font-size: 18px;
+    text-decoration: underline;
+    font-family: "Open Sans";
+    padding-bottom: 50px;
+}
+
+#fitness {
+    background-image: url(img/fitness.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+
+}
+
+
+#yourbody {
+    background-image: url(img/yourbody.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+}
+
+
+.bgred {
+    background: var(--red);
+}
+
+#lifestyle {
+    background-image: url(img/lifestyle.jpg);
+    background-size: cover;
+    background-position: 50% 30%;
+    width: 100%;
+    height: 50vh;
+
+}
+
+#summeroffun {
+    background-image: url(img/summeroffun.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50vh;
+}
+
+
+.row .col-text h4 {
+    padding-bottom: 12px;
+}
+
+.row .col-text h2 {
+    padding-bottom: 35px;
+}
+
+.row .col-text p {
+    padding-bottom: 35px;
+}
+
+
+#summer {
+    background: var(--green);
+    padding: 20px;
+}
+
+#summer h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Open Sans";
+    padding-bottom: 35px;
+}
+
+#summer p {
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+
+}
+
+
+
+
+#grape {
+    background: url(img/grape.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+
+
+}
+
+#mango {
+    background: url(img/mango.jpg);
+    background-size: cover;
+    background-position: center;
+
+    height: 50vh;
+}
+
+#grape-text {
+    background: var(--white);
+    ;
+}
+
+#mango-text {
+    background: var(--green);
+
+}
+
+#mango-text h4 {
+    font-size: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 100;
+    font-family: "Montserrat";
+}
+
+#mango-text h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Open Sans";
+}
+
+#mango-text p {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.last-img {
+    background: url(img/New\ Project.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.last-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    padding: 0 50px;
+
+}
+
+
+.last-img h1 {
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+
+}
+
+.last-img p {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+
+}
+
+
+
+/* Footer */
+.footer-container {
+    background: #0c1119;
+    padding: 60px 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+}
+
+.footer-menu h1 {
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    padding-bottom: 10px;
+}
+
+.footer-menu p {
+    font-size: 14px;
+    color: #8297a7;
+    font-weight: 400;
+    font-family: "Open Sans";
+    padding-bottom: 10px;
+}
+
+#fb {
+    color: #2e3092;
+}
+
+#ins {
+    color: rgb(241, 12, 176);
+}
+
+#yt {
+    color: #ed3123;
+}
+
+#lnk {
+    color: aqua;
+}
+
+#right {
+    color: white;
+}
+
+.form-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-list input {
+    height: 5vh;
+    margin: 10px auto;
+}
+
+.form-list button {
+    border: 1px solid transparent;
+    background: #a1c927;
+    color: white;
+    height: 5vh;
+    padding: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+
+    /* Header */
+    nav {
+        padding: 40px 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    /* Green */
+    .green-container {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    /* ROW */
+    .row {
+        flex-direction: row;
+        padding: 0 65px;
+    }
+
+    #yourbody {
+        order: -1;
+    }
+
+
+    /* red row */
+    #summeroffun {
+        order: -1;
+    }
+
+    #summer h2 {
+        padding-top: 50px;
+    }
+
+
+    #grape,
+    #grape-text {
+        width: 60%;
+
+    }
+
+    #mango,
+    #mango-text {
+        width: 40%;
+    }
+
+    .last-img {
+        height: 100vh;
+        background-position: 55% 25%;
+        margin-bottom: 0;
+    }
+
+    /* Footer */
+    .footer-menu {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        padding: 0 150px;
+        gap: 50px;
+    }
+
+    .footer-menu .menu-list {
+        width: 33%;
+        text-align: left;
+    }
+
+    .menu-list i {
+        font-size: 22px;
+        margin-right: 10px;
+    }
+}
